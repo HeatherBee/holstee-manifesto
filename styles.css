@@ -1,0 +1,60 @@
+html {
+	margin: 0px;
+}
+
+body {
+	font-family: 'Trirong', serif;
+	font-size: 17px;
+}
+
+#container {
+	width: 558px;
+	margin: auto;
+}
+
+p {
+	line-height: 30px;
+	margin: 0px;
+	padding: 15px;	
+	text-align: center;
+	width: 249px;
+}
+span {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/*gray background, pink text*/
+.color-scheme-1 {
+	background: #b3b3b3;
+	color: #e60073;
+}
+
+/*pink background, gray text*/
+.color-scheme-2 {
+	background: #ff3385;
+	color: #b3b3b3;
+}
+
+/*black background, pink text*/
+.color-scheme-3 {
+	background: #000000;
+	color: lightpink;
+}
+
+#left-column {
+	float: left;
+}
+
+#right-column {
+	float: left;
+}
+
+#p4, #p5, #p8 {
+	font-size: 22px;
+}
+
+#p9 {
+	height: 66px;
+}
