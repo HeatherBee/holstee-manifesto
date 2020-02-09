@@ -4,21 +4,30 @@ html {
 
 body {
 	font-family: 'Trirong', serif;
-	font-size: 17px;
+	font-size: 16px;
+	width: 100%;
 }
 
 #container {
-	width: 558px;
+	display: flex;
+	height: 100%;
 	margin: auto;
+	width: 50%;
 }
 
-p {
-	line-height: 30px;
-	margin: 0px;
-	padding: 15px;	
-	text-align: center;
-	width: 249px;
+#left-column, #right-column {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: stretch;
+	align-items: stretch;
+	width: 50%;
 }
+
+.quote {
+	text-align: center;
+	padding: 1em;
+}
+
 span {
 	font-family: 'Calligraffitti', cursive;
 	font-size: 1.3em;
@@ -26,35 +35,19 @@ span {
 }
 
 /*gray background, pink text*/
-.color-scheme-1 {
+.color-1 {
 	background: #b3b3b3;
 	color: #e60073;
 }
 
 /*pink background, gray text*/
-.color-scheme-2 {
+.color-2 {
 	background: #ff3385;
 	color: #b3b3b3;
 }
 
 /*black background, pink text*/
-.color-scheme-3 {
+.color-3 {
 	background: #000000;
 	color: lightpink;
-}
-
-#left-column {
-	float: left;
-}
-
-#right-column {
-	float: left;
-}
-
-#p4, #p5, #p8 {
-	font-size: 22px;
-}
-
-#p9 {
-	height: 66px;
 }
